@@ -38,6 +38,7 @@ li.navbar-item a.navbar-item:hover {
     font-size: 68px;
     text-align: center;
     margin: 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 div.spacer {
@@ -57,19 +58,21 @@ div.biggerspacer {
 
 }
 
-h1.content-header {
+h1{
     font-size: 45px;
+    font-family: 'Nanum Gothic', sans-serif;
 
 }
 
 h2 {
     margin-top: 0px;
-    font-size: 25px;
+    font-size: 35px;
     color: 	#737373;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
-.nanum {
-    font-family: 'Nanum Gothic', sans-serif;
+h3.nanum {
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 figure.rightfloat {
@@ -85,4 +88,8 @@ figure.rightfloat>img {
   max-height: 300px;
   border-radius: 5px;
   border: 1px solid #cccccc;
+}
+
+h3{
+  font-size: 25px
 }

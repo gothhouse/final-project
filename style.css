@@ -66,7 +66,8 @@ h1{
 
 h2{
     margin-top: 0px;
-    font-size: 35px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 figure.rightfloat {
@@ -85,11 +86,12 @@ figure.rightfloat>img {
 }
 
 h3{
-  font-size: 25px;
+  font-size: 22px;
   color: 	#737373;
   font-family: 'Nanum Gothic', sans-serif;
 }
 
 h3.sidebar{
   color: #262626;
+  font-size: 25px;
 }

@@ -64,15 +64,9 @@ h1{
 
 }
 
-h2 {
+h2{
     margin-top: 0px;
     font-size: 35px;
-    color: 	#737373;
-    font-family: 'Nanum Gothic', sans-serif;
-}
-
-h3.nanum {
-  font-family: 'Nanum Gothic', sans-serif;
 }
 
 figure.rightfloat {
@@ -91,5 +85,11 @@ figure.rightfloat>img {
 }
 
 h3{
-  font-size: 25px
+  font-size: 25px;
+  color: 	#737373;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+h3.sidebar{
+  color: #262626;
 }

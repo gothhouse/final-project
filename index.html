@@ -19,23 +19,38 @@
          <!--Fonts-->
          <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto&display=swap" rel="stylesheet">
         
-		<title>Your Homepage</title>
+		<title>CS Vibes</title>
 		
 	</head>
 
 	<body>
         <div class="container">
             <h1 ID="title">CS Vibes</h1>
-            <div class="row">
-                <div class="col-xs-12">
-                    <ul class="navbar-item">
-                        <li class="navbar-item"><a class="active navbar-item" href="index.html">Home</a></li>
-                        <li class="navbar-item"><a class="navbar-item" href="about.html">About</a></li>
-                        <li class="navbar-item"><a class="navbar-item" href="#contact">Contact</a></li>
-                    </ul>
+
+            <!--navbar-->
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                   <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" 
+                      data-target="#example-navbar-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                   </button>
+                   <a class="navbar-brand" href="#">Jamie Dang</a>
                 </div>
-            </div>
-            <div class="spacer"></div>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                   <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                   </ul>
+                </div>
+                 
+             </nav>
+
+
             <div class="row">
                 <!--consider learning how to colllapse a sidebar-->
                 <div class="col-xs-2 col-sm-3 bd-sidebar">
@@ -95,7 +110,10 @@
                             </li>
                         </ul>
                             
-                    </p>
+                        <p>
+                            Enjoy your stay here, and have a great time!
+                        </p>
+
                     <div class="spacer"></div>
 
                     
